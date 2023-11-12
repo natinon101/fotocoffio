@@ -1,0 +1,64 @@
+body {
+    background-image: url('image/BGwood2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.BGdrinkmenu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.drinkmenu {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.drinkmenu img{
+    margin: 2rem 0;
+    width: 70%;
+    height: auto;
+}
+
+.logo{
+    display: grid;
+    place-items: center;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+    margin: 1rem 0;
+}
+
+.drink {
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    font-family: 'Sarabun';
+}
+
+.mix {
+    display: grid;
+    place-items: center;
+}
+
+.mix img{
+    width: 80%;
+    height: 100%;
+}
+
+.about {
+    margin: 1rem 0 ;
+}
+
+.about p {
+    font-size: 30px;
+    font-family: 'Itim';
+}
